@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Male Products",
+        "slug": "male-products",
+        "subcategories": [
+            {
+                "name": "Delay Spray",
+                "slug": "delay-spray",
+                "link": "category.html?cat=delay-spray"
+            },
+            {
+                "name": "Male Oil",
+                "slug": "male-oil",
+                "link": "category.html?cat=male-oil"
+            },
+            {
+                "name": "Male Tablets",
+                "slug": "male-tablets",
+                "link": "category.html?cat=male-tablets"
+            },
+
+             {
+                "name": "Hair Care",
+                "slug": "hair-care",
+                "link": "category.html?cat=hair-care"
+            }
+
+        ]
+    },
+     {
+        "name": "Women's Fashion",
+        "slug": "women's-fashion",
+        "subcategories": [
+               {
+                "name": "Undergarments",
+                "slug": "undergarments",
+                "link": "category.html?cat=undergarments"
+            },
+            {
+                "name": "Women Dresses",
+                "slug": "women-resses",
+                "link": "category.html?cat=women-resses"
+            },
+           
+            {
+                "name": "Kids Wear",
+                "slug": "kids-wear",
+                "link": "category.html?cat=kids-wear"
+            }
+        ]
+    },
+
+    {
+        "name": "Female Products",
+        "slug": "female-products",
+        "subcategories": [
+            {
+                "name": "Female Oil",
+                "slug": "female-oil",
+                "link": "category.html?cat=female-oil"
+            },
+           
+            {
+                "name": "Female Care",
+                "slug": "female-care",
+                "link": "category.html?cat=female-care"
+            }
+        ]
+    },
+
+    {
+        "name": "Other Categories",
+        "slug": "other-categories",
+        "subcategories": [
+            {
+                "name": "Condoms",
+                "slug": "condoms",
+                "link": "category.html?cat=condoms"
+            },
+            {
+                "name": "Lubricants",
+                "slug": "lubricants",
+                "link": "category.html?cat=lubricants"
+            }
+        ]
+    }
+]

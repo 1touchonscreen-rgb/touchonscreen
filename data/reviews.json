@@ -1,0 +1,24 @@
+[
+  {
+    "productId": 1,
+    "name": "Ali Khan",
+    "email": "ali@example.com",
+    "rating": 5,
+    "comment": "Very good product."
+},
+  {
+    "productId": 1,
+    "name": "Ahmed",
+    "email": "ahmed@example.com",
+    "rating": 4,
+    "comment": "Original product and fast delivery."
+  },
+  {
+    "productId": 2,
+    "name": "Sara",
+    "email": "sara@example.com",
+    "rating": 5,
+    "comment": "Amazing quality."
+  }
+ 
+]
