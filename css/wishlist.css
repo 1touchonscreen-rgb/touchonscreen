@@ -1,0 +1,138 @@
+/* =========================
+   WISHLIST PAGE
+========================= */
+
+.wishlist-banner{
+    background:#181818;
+    padding:60px 0;
+    text-align:center;
+}
+
+.wishlist-banner h1{
+    font-size:42px;
+    color:#d4af37;
+    margin:15px 0;
+}
+
+.wishlist-banner p{
+    color:#bbbbbb;
+    font-size:17px;
+}
+
+.breadcrumb{
+    color:#bbbbbb;
+    font-size:15px;
+}
+
+.breadcrumb a{
+    color:#ffffff;
+    transition:.3s;
+}
+
+.breadcrumb a:hover{
+    color:#d4af37;
+}
+
+/* WISHLIST SECTION */
+
+.wishlist-section{
+    padding:70px 0;
+}
+
+.wishlist-items{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+/* WISHLIST CARD */
+
+.wishlist-item{
+    background:#181818;
+    border:1px solid #2c2c2c;
+    border-radius:12px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.wishlist-item:hover{
+    transform:translateY(-6px);
+    border-color:#d4af37;
+}
+
+.wishlist-item img{
+    width:100%;
+    height:260px;
+    object-fit:contain;
+    background:#fff;
+    padding:20px;
+}
+
+.wishlist-info{
+    padding:20px;
+}
+
+.wishlist-info h3{
+    font-size:20px;
+    margin-bottom:12px;
+}
+
+.wishlist-info p{
+    color:#d4af37;
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+/* WISHLIST BUTTONS */
+
+.wishlist-btn{
+    display:block;
+    width:100%;
+    padding:14px;
+    text-align:center;
+    background:#d4af37;
+    color:#111;
+    border-radius:8px;
+    font-weight:700;
+    transition:.3s;
+    margin-bottom:12px;
+}
+
+.wishlist-btn:hover{
+    background:#ffffff;
+}
+
+.remove-btn{
+    display:block;
+    width:100%;
+    padding:14px;
+    text-align:center;
+    background:#ff3b3b;
+    color:#fff;
+    border-radius:8px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.remove-btn:hover{
+    background:#d60000;
+}
+
+/* EMPTY WISHLIST */
+
+.empty-wishlist{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.empty-wishlist h2{
+    font-size:34px;
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.empty-wishlist p{
+    color:#bbbbbb;
+    margin-bottom:30px;
+}

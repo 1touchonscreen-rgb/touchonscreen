@@ -1,0 +1,187 @@
+/* ===================================================
+   CART PAGE BANNER
+=================================================== */
+.cart-rating {
+    text-align: left;
+}
+
+.cart-banner{
+    background:#181818;
+    padding:50px 0;
+    border-bottom:1px solid #2d2d2d;
+}
+
+.cart-banner .breadcrumb{
+    margin-bottom:15px;
+    font-size:15px;
+    color:#bbbbbb;
+}
+
+.cart-banner .breadcrumb a{
+    color:#d4af37;
+    text-decoration:none;
+}
+
+.cart-banner h1{
+    font-size:42px;
+    color:#ffffff;
+    margin-bottom:10px;
+}
+
+.cart-banner p{
+    color:#bbbbbb;
+    font-size:17px;
+    margin:0;
+}
+
+
+/* ===================================================
+   CART SECTION
+=================================================== */
+
+.cart-section{
+    padding:60px 0;
+}
+
+.cart-section .container{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:35px;
+    align-items:flex-start;
+}
+
+
+/* ===================================================
+   CART PRODUCTS
+=================================================== */
+
+.cart-items{
+    background:#181818;
+    border:1px solid #2f2f2f;
+    border-radius:12px;
+    padding:25px;
+    min-height:350px;
+}
+
+
+/* ===================================================
+   CART SUMMARY
+=================================================== */
+
+.cart-summary{
+    background:#181818;
+    border:1px solid #2f2f2f;
+    border-radius:12px;
+    padding:25px;
+    position:sticky;
+    top:20px;
+}
+
+.cart-summary h2{
+    font-size:28px;
+    margin-bottom:25px;
+    color:#d4af37;
+}
+
+
+/* ===================================================
+   SUMMARY ROWS
+=================================================== */
+
+.summary-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:18px;
+    font-size:17px;
+    color:#dddddd;
+}
+
+.summary-row.total{
+    border-top:1px solid #333;
+    padding-top:18px;
+    margin-top:18px;
+    font-size:22px;
+    font-weight:700;
+    color:#ffffff;
+}
+
+
+/* ===================================================
+   CHECKOUT BUTTON
+=================================================== */
+
+.checkout-btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    background:#d4af37;
+    color:#111;
+    padding:15px;
+    border-radius:8px;
+    font-weight:700;
+    text-decoration:none;
+    margin-top:25px;
+    transition:.3s;
+}
+
+.checkout-btn:hover{
+    background:#ffffff;
+    color:#111;
+}
+
+
+/* ===================================================
+   CONTINUE SHOPPING BUTTON
+=================================================== */
+
+.continue-btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    border:1px solid #d4af37;
+    color:#d4af37;
+    padding:15px;
+    border-radius:8px;
+    font-weight:700;
+    text-decoration:none;
+    margin-top:15px;
+    transition:.3s;
+}
+
+.continue-btn:hover{
+    background:#d4af37;
+    color:#111;
+}
+
+/* ===================================================
+   CART PAGE MOBILE
+=================================================== */
+@media (max-width:768px){
+
+    .cart-product{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        box-sizing:border-box;
+    }
+
+    .cart-product img{
+        width:200px;
+        height:200px;
+        object-fit:contain;
+        margin:0 auto 15px;
+    }
+
+    .cart-info{
+        width:100%;
+        text-align:center;
+        box-sizing:border-box;
+    }
+
+    .cart-qty{
+        justify-content:center;
+    }
+
+}

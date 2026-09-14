@@ -1,0 +1,696 @@
+/* =========================================================
+   CHECKOUT PAGE
+   DARK WEBSITE + WHITE CARDS + GOLD ACCENT
+========================================================= */
+
+.checkout-layout {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: minmax(600px, 1.6fr) minmax(550px, 1.6fr);
+    gap: 30px;
+    align-items: start;
+    padding: 5px;
+}
+
+/* =========================================================
+   LEFT SIDE
+   YOUR ORDER
+========================================================= */
+
+.checkout-left {
+    min-width: 0;
+    display: contents;
+}
+
+.checkout-products {
+    grid-column: 1;
+    grid-row: 1 / 4;
+
+    background: #ffffff;
+    color: #171717;
+
+    border-radius: 14px;
+    padding: 26px;
+
+    border: 1px solid #e4e4e4;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+
+    min-width: 0;
+}
+
+.checkout-products h2 {
+    margin: 0 0 20px;
+
+    color: #171717;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   PRODUCT
+========================================================= */
+
+.checkout-product {
+    display: flex;
+    align-items: center;
+
+    gap: 22px;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.checkout-product:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.checkout-product:first-child {
+    padding-top: 5px;
+}
+
+
+/* PRODUCT IMAGE - LEFT */
+
+.checkout-product img {
+    width: 135px;
+    height: 135px;
+
+    flex-shrink: 0;
+
+    object-fit: contain;
+
+    border-radius: 12px;
+
+    background: #f7f7f7;
+
+    border: 1px solid #e1e1e1;
+
+    padding: 8px;
+
+    box-sizing: border-box;
+}
+
+
+/* PRODUCT INFORMATION - RIGHT OF IMAGE */
+
+.checkout-product-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.checkout-product-info h3 {
+    margin: 0 0 12px;
+
+    color: #171717;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    line-height: 1.35;
+}
+
+.checkout-product-info p {
+    margin: 7px 0;
+
+    color: #666666;
+
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.checkout-product-info strong {
+    display: block;
+
+    margin-top: 12px;
+
+    color: #b18a2b;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   RIGHT SIDE CARDS
+========================================================= */
+
+.payment-details,
+.checkout-summary,
+.checkout-form {
+
+    grid-column: 2;
+
+    background: #ffffff;
+    color: #171717;
+
+    border-radius: 14px;
+
+    padding: 23px;
+
+    border: 1px solid #e4e4e4;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   PAYMENT DETAILS
+   FIRST ON DESKTOP
+========================================================= */
+
+.payment-details {
+    grid-row: 1;
+
+    margin-top: 0;
+}
+
+.payment-details h2,
+.checkout-summary h2,
+.checkout-form h2 {
+
+    margin: 0 0 18px;
+
+    color: #171717;
+
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.payment-details h2::after,
+.checkout-summary h2::after,
+.checkout-form h2::after {
+
+    content: "";
+
+    display: block;
+
+    width: 42px;
+    height: 3px;
+
+    margin-top: 8px;
+
+    background: #b18a2b;
+
+    border-radius: 10px;
+}
+
+
+/* PAYMENT INFORMATION */
+
+.payment-details p {
+
+    margin: 0;
+
+    padding: 12px 0;
+
+    color: #555555;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.payment-details p:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.payment-details p strong {
+    color: #171717;
+}
+
+
+/* =========================================================
+   ORDER SUMMARY
+========================================================= */
+
+.checkout-summary {
+    grid-row: 2;
+
+    margin-top: 0;
+
+    max-width: none;
+}
+
+.summary-row {
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 12px 0;
+
+    color: #666666;
+
+    font-size: 15px;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.summary-row span:last-child {
+    color: #222222;
+    font-weight: 600;
+}
+
+.summary-row.total {
+
+    padding-top: 17px;
+    padding-bottom: 0;
+
+    border-bottom: none;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.summary-row.total span:first-child {
+    color: #171717;
+}
+
+.summary-row.total span:last-child {
+    color: #b18a2b;
+    font-size: 22px;
+}
+
+
+/* =========================================================
+   DELIVERY DETAILS
+========================================================= */
+
+.checkout-form {
+    grid-row: 3;
+
+    margin-top: 0;
+
+    max-width: none;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+
+    width: 100%;
+
+    display: block;
+
+    box-sizing: border-box;
+
+    margin-top: 12px;
+
+    padding: 14px 15px;
+
+    background: #fafafa;
+
+    color: #171717;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 9px;
+
+    font-family: inherit;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: 0.25s ease;
+}
+
+.checkout-form input::placeholder,
+.checkout-form textarea::placeholder {
+    color: #999999;
+}
+
+.checkout-form input:focus,
+.checkout-form textarea:focus {
+
+    background: #ffffff;
+
+    border-color: #b18a2b;
+
+    box-shadow: 0 0 0 3px rgba(177, 138, 43, 0.10);
+}
+
+.checkout-form textarea {
+
+    min-height: 115px;
+
+    resize: vertical;
+}
+
+
+/* =========================================================
+   WHATSAPP NOTICE
+========================================================= */
+
+.whatsapp-notice {
+
+    margin: 14px 0 0;
+
+    color: #777777;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    line-height: 1.5;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   WHATSAPP BUTTON
+========================================================= */
+
+#checkout-whatsapp {
+
+    width: 100%;
+
+    margin-top: 14px;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background: #25D366;
+
+    color: #ffffff;
+
+    font-family: inherit;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.25s ease;
+
+    box-shadow: 0 6px 18px rgba(37, 211, 102, 0.18);
+}
+
+#checkout-whatsapp:hover {
+
+    background: #20bd5a;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 9px 24px rgba(37, 211, 102, 0.25);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 950px) {
+
+    .checkout-layout {
+        padding: 5px;
+       margin-top: -10px;
+
+        grid-template-columns:
+            minmax(0, 1.15fr)
+            minmax(300px, 0.85fr);
+
+        gap: 20px;
+    }
+
+    .checkout-products,
+    .payment-details,
+    .checkout-summary,
+    .checkout-form {
+
+        padding: 0;
+    }
+
+    .checkout-product img {
+
+        width: 110px;
+        height: 110px;
+    }
+
+    .checkout-product-info h3 {
+        font-size: 18px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .checkout-layout {
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 0;
+    }
+
+
+    /* ALL CARDS FULL WIDTH */
+
+    .checkout-products,
+    .payment-details,
+    .checkout-summary,
+    .checkout-form {
+
+        width: 100%;
+
+        margin-top: 15px;
+
+        padding: 17px;
+
+        border-radius: 13px;
+
+        box-sizing: border-box;
+    }
+
+
+    /* -----------------------------------------------------
+       MOBILE ORDER
+       
+       Your Order
+       Payment
+       Summary
+       Delivery
+       WhatsApp
+    ----------------------------------------------------- */
+
+    .checkout-products {
+        order: 1;
+    }
+
+    .payment-details {
+        order: 2;
+    }
+
+    .checkout-summary {
+        order: 3;
+    }
+
+    .checkout-form {
+        order: 4;
+    }
+
+
+    /* -----------------------------------------------------
+       MOBILE PRODUCT
+    ----------------------------------------------------- */
+
+    .checkout-products h2,
+    .payment-details h2,
+    .checkout-summary h2,
+    .checkout-form h2 {
+
+        font-size: 19px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .checkout-product {
+
+        gap: 13px;
+
+        padding: 15px 0;
+
+        align-items: center;
+    }
+
+
+    .checkout-product img {
+
+        width: 82px;
+        height: 82px;
+
+        padding: 5px;
+
+        border-radius: 9px;
+    }
+
+
+    .checkout-product-info h3 {
+
+        font-size: 15px;
+
+        margin-bottom: 7px;
+    }
+
+
+    .checkout-product-info p {
+
+        margin: 4px 0;
+
+        font-size: 13px;
+    }
+
+
+    .checkout-product-info strong {
+
+        margin-top: 7px;
+
+        font-size: 15px;
+    }
+
+
+    /* -----------------------------------------------------
+       MOBILE PAYMENT
+    ----------------------------------------------------- */
+
+    .payment-details {
+
+        position: static;
+    }
+
+    .payment-details p {
+
+        padding: 11px 0;
+
+        font-size: 13px;
+    }
+
+
+    /* -----------------------------------------------------
+       MOBILE SUMMARY
+    ----------------------------------------------------- */
+
+    .summary-row {
+
+        padding: 11px 0;
+
+        font-size: 14px;
+    }
+
+    .summary-row.total {
+
+        font-size: 18px;
+
+        padding-top: 15px;
+    }
+
+    .summary-row.total span:last-child {
+
+        font-size: 19px;
+    }
+
+
+    /* -----------------------------------------------------
+       MOBILE FORM
+    ----------------------------------------------------- */
+
+    .checkout-form input,
+    .checkout-form textarea {
+
+        padding: 13px;
+
+        font-size: 14px;
+
+        border-radius: 8px;
+    }
+
+    .checkout-form textarea {
+
+        min-height: 105px;
+    }
+
+
+    /* -----------------------------------------------------
+       MOBILE WHATSAPP
+    ----------------------------------------------------- */
+
+    #checkout-whatsapp {
+
+        padding: 14px;
+
+        font-size: 16px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 420px) {
+
+    .checkout-products,
+    .payment-details,
+    .checkout-summary,
+    .checkout-form {
+
+        padding: 14px;
+
+        border-radius: 11px;
+    }
+
+
+    .checkout-product {
+
+        gap: 10px;
+    }
+
+
+    .checkout-product img {
+
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .checkout-product-info h3 {
+
+        font-size: 14px;
+    }
+
+
+    .checkout-product-info p {
+
+        font-size: 12px;
+    }
+
+
+    .checkout-product-info strong {
+
+        font-size: 14px;
+    }
+}
