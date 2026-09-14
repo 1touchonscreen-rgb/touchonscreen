@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product</title>
+    <meta name="description"
+    content="View product details, price, reviews, and ordering information from Touch On Screen with discreet delivery across Pakistan.">
+    <link rel="canonical" id="canonical-url" href="">
+    <!-- Open Graph meta tags --> 
+<meta property="og:title" id="og-title" content="">
+<meta property="og:description" id="og-description" content="">
+<meta property="og:type" content="product">
+<meta property="og:url" id="og-url" content="">
+<meta property="og:image" id="og-image" content="">
+       <!-- favicon -->
+    <link rel="icon" type="image/webp" href="images/favicon.webp">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+<!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+
+<body>
+   <!-- ========================= -->
+    <!-- TOP BAR -->
+    <!-- ========================= -->
+
+    <section class="top-bar">
+
+        <div class="container">
+
+            <div class="top-left">
+
+                <span><i class="fa-solid fa-box"></i> Discreet Packaging</span>
+
+                <span><i class="fa-solid fa-shield-heart"></i> 100% Original</span>
+
+                <span><i class="fa-solid fa-truck-fast"></i> Fast Delivery</span>
+
+            </div>
+
+            <div class="top-right">
+
+                <a href="#">Track Order</a>
+
+                <a href="#">Contact</a>
+
+            </div>
+
+        </div>
+
+    </section>
+  
+
+    <!-- ========================= -->
+    <!-- HEADER Logo Search Right Icon -->
+    <!-- ========================= -->
+
+    <header class="header">
+
+    <div class="container">
+
+    
+
+        <!-- Header Logo -->
+
+        <div class="logo">
+
+    <a href="index.html">
+
+        <img src="images/logo.webp" alt="Touch On Screen Logo">
+
+    </a>
+
+</div>
+
+
+        <!-- SEARCH -->
+
+        <div class="search-box">
+
+            <input type="text" placeholder="Search Products...">
+
+            <button>
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- HEADER ICONS -->
+
+          <div class="header-icons">
+
+    <a href="wishlist.html" title="Wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </a>
+
+    <a href="login.html" title="Login">
+        <i class="fa-regular fa-user"></i>
+    </a>
+
+    <a href="cart.html" title="Shopping Cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </a>
+
+</div>
+
+
+    </div>
+</header>
+<!-- ========================= -->
+<!-- MOBILE HEADER -->
+<!-- ========================= -->
+
+<div class="mobile-header">
+    <div class="mobile-menu"></div>
+
+    <!-- First Row -->
+     <div class="mobile-top">
+
+        <div class="mobile-logo">
+            <a href="index.html">
+                <img src="images/logo.webp" alt="Touch On Screen Logo">
+            </a>
+        </div>
+
+        <div class="mobile-icons">
+
+    <a href="wishlist.html" title="Wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </a>
+
+    <a href="login.html" title="Login">
+        <i class="fa-regular fa-user"></i>
+    </a>
+
+    <a href="cart.html" title="Shopping Cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </a>
+
+</div>
+
+    </div>
+    <!-- Second Row -->
+
+    <div class="mobile-bottom">
+
+        <div class="mobile-search">
+
+            <input type="text" placeholder="Search Products...">
+
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+        <div class="mobile-category-btn">
+
+            <i class="fa-solid fa-bars"></i>
+
+            <span>Categories</span>
+
+        </div>
+
+    </div>
+
+</div>
+    
+<!-- ========================= -->
+<!-- HEADER NAVIGATION -->
+<!-- ========================= -->
+
+<nav class="navbar">
+
+    <div class="container">
+
+        <ul class="nav-menu">
+
+
+            <!-- CATEGORIES -->
+
+            <li class="category-dropdown">
+
+                <a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                    <span>Categories</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+
+
+                <!-- Categories will load from JS -->
+
+                <ul class="category-menu">
+
+                </ul>
+
+
+            </li>
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            
+              <li>
+              <a href="shop.html">
+                    Shop
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+<!-- ========================= -->
+<!-- SINGLE PRODUCT -->
+<!-- ========================= -->
+
+<section class="single-product">
+
+    <div class="container">
+
+        <!-- Product Top -->
+
+        <div class="product-details">
+
+            <!-- Gallery -->
+
+            <div class="product-gallery">
+
+                <div class="product-thumbnails" id="product-thumbnails">
+                    <!-- JS سے thumbnails آئیں گی -->
+                </div>
+
+                <div class="product-image">
+                    <img
+                       id="product-image"
+                       src=""
+                       alt="Product"
+                       decoding="async"
+                    >
+                </div>
+
+            </div>
+
+            <!-- Product Info -->
+<!-- Product Info -->
+
+<div class="product-info">
+
+    <h1 id="product-name">
+        Product Name
+    </h1>
+    <div id="product-rating"></div>
+
+    <h2 id="product-price">
+        Price
+    </h2>
+
+    <p id="product-short-description">
+        Short Description
+    </p>
+
+    <div class="product-buttons">
+             <button id="add-to-cart-btn">
+        Add To Cart
+        </button>
+
+        <a id="buy-now-btn" href="#">
+            Buy Now
+        </a>
+
+    </div>
+
+</div>
+
+</div>
+
+        <!-- Product Tabs -->
+
+        <div class="product-tabs">
+
+            <button class="tab-btn active" data-tab="description">
+                Description
+            </button>
+
+            <button class="tab-btn" data-tab="reviews">
+                Reviews
+            </button>
+
+        </div>
+
+        <!-- Description -->
+
+        <div class="product-description" id="description-section">
+
+            <h2>Description</h2>
+
+            <div id="product-long-description"></div>
+
+        </div>
+
+        <!-- Product Tags -->
+
+        <div class="product-tags">
+
+            <strong>Tags:</strong>
+
+            <div id="product-tags"></div>
+
+        </div>
+
+        <!-- Reviews -->
+
+        <div class="product-reviews" id="product-reviews" style="display:none;">
+
+            <h2>Customer Reviews</h2>
+
+            <div id="reviews-list">
+                <!-- JS سے Reviews آئیں گے -->
+            </div>
+
+            <h3>Write a Review</h3>
+
+            <input type="text" placeholder="Your Name">
+
+            <textarea placeholder="Write your review"></textarea>
+
+            <button>Submit Review</button>
+
+        </div>
+
+        <!-- Related Products -->
+
+        <section class="related-products">
+
+            <h2>Related Products</h2>
+
+            <div class="latest-products-grid" id="related-products">
+                <!-- JS سے Related Products آئیں گے -->
+            </div>
+
+        </section>
+
+    </div>
+
+</section>
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h3>TOUCH ON SCREEN</h3>
+
+            <p>
+               Your online store for health, wellness, personal care and beauty products,
+                with convenient ordering and discreet delivery.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Products</a></li>
+                <li><a href="category.html">Categories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h3>Customer Support</h3>
+
+            <ul>
+
+                <li><a href="#">Privacy Policy</a></li>
+
+                <li><a href="#">Terms & Conditions</a></li>
+
+                <li><a href="#">Refund Policy</a></li>
+
+                <li><a href="#">Shipping Policy</a></li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h3>Contact</h3>
+
+           <p>Email: 1touchonscreen@gmail.com</p>
+
+            <p>WhatsApp: +92 328 6848461</p>
+
+            <div class="social-icons">
+
+                <a href="https://web.facebook.com/undergarmentsforfemale"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="https://www.instagram.com/adulttoyinchina/"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+                <a href="https://www.tiktok.com/@thehouseoffashionf2"><i class="fab fa-tiktok"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2027 Touch On Screen. All Rights Reserved.
+
+    </div>
+
+</footer>
+<!--Footer end-->
+<!-- ========================= -->
+<!-- FLOATING WHATSAPP -->
+<!-- ========================= -->
+
+<a href="https://wa.me/923286848461"
+   class="floating-whatsapp"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+
+    <i class="fab fa-whatsapp"></i>
+
+</a>
+<script src="js/reviews.js" defer></script>
+<script src="js/script.js" defer></script>
+<script src="js/product.js" defer></script>
+<script src="js/mobile-view.js" defer></script>
+<script src="js/wishlist.js" defer></script>
+
+</body>
+
+</html>

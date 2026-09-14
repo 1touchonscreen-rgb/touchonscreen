@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://touchonscreen.com/</loc>
+    </url>
+
+    <url>
+        <loc>https://touchonscreen.com/shop.html</loc>
+    </url>
+
+    <url>
+        <loc>https://touchonscreen.com/about.html</loc>
+    </url>
+
+    <url>
+        <loc>https://touchonscreen.com/contact.html</loc>
+    </url>
+                   <!-- Female Care -->
+    <url>
+        <loc>https://touchonscreen.com/category.html?cat=female-care</loc>
+    </url>
+                    <!-- Hair Care -->
+    <url>
+        <loc>https://touchonscreen.com/category.html?cat=hair-care</loc>
+    </url>
+
+    <url>
+        <loc>https://touchonscreen.com/product.html?id=1</loc>
+    </url>
+
+    <url>
+        <loc>https://touchonscreen.com/product.html?id=2</loc>
+    </url>
+
+</urlset>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout | Touch On Screen</title>
+    <meta name="description"
+    content="Complete your Touch On Screen order securely with convenient delivery details and WhatsApp order confirmation.">
+      <!-- noindex -->
+      <meta name="robots" content="noindex, follow">
+    <!-- canonical -->
+     <link rel="canonical" href="https://touchonscreen.com/checkout.html">
+    <!-- Open Graph meta tags -->
+<meta property="og:title" content="Checkout | Touch On Screen">
+<meta property="og:description" content="Complete your Touch On Screen order securely with convenient delivery details and WhatsApp order confirmation.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://touchonscreen.com/checkout.html">
+<meta property="og:image" content="https://touchonscreen.com/images/hero-product.webp">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+</head>
+
+<body>
+    
+ <!-- ========================= -->
+    <!-- TOP BAR -->
+    <!-- ========================= -->
+
+    <section class="top-bar">
+
+        <div class="container">
+
+            <div class="top-left">
+
+                <span><i class="fa-solid fa-box"></i> Discreet Packaging</span>
+
+                <span><i class="fa-solid fa-shield-heart"></i> 100% Original</span>
+
+                <span><i class="fa-solid fa-truck-fast"></i> Fast Delivery</span>
+
+            </div>
+
+            <div class="top-right">
+
+                <a href="#">Track Order</a>
+
+                <a href="#">Contact</a>
+
+            </div>
+
+        </div>
+
+    </section>
+  
+
+    <!-- ========================= -->
+    <!-- HEADER Logo Search Right Icon -->
+    <!-- ========================= -->
+
+    <header class="header">
+
+    <div class="container">
+
+    
+
+        <!-- Header Logo -->
+
+        <div class="logo">
+
+    <a href="index.html">
+
+        <img src="images/logo.webp" alt="Touch On Screen Logo">
+
+    </a>
+
+</div>
+
+
+        <!-- SEARCH -->
+
+        <div class="search-box">
+
+            <input type="text" placeholder="Search Products...">
+
+            <button>
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- HEADER ICONS -->
+
+    <div class="header-icons">
+
+    <a href="wishlist.html" title="Wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </a>
+
+    <a href="login.html" title="Login">
+        <i class="fa-regular fa-user"></i>
+    </a>
+
+    <a href="cart.html" title="Shopping Cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </a>
+
+</div>
+
+
+    </div>
+</header>
+<!-- ========================= -->
+<!-- MOBILE HEADER -->
+<!-- ========================= -->
+
+<div class="mobile-header">
+    <div class="mobile-menu"></div>
+
+    <!-- First Row -->
+    <div class="mobile-top">
+
+        <div class="mobile-logo">
+            <a href="index.html">
+                <img src="images/logo.webp" alt="Touch On Screen Logo">
+            </a>
+        </div>
+
+        <div class="mobile-icons">
+
+    <a href="wishlist.html" title="Wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </a>
+
+    <a href="login.html" title="Login">
+        <i class="fa-regular fa-user"></i>
+    </a>
+
+    <a href="cart.html" title="Shopping Cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </a>
+
+</div>
+
+    </div>
+    <!-- Second Row -->
+
+    <div class="mobile-bottom">
+
+        <div class="mobile-search">
+
+            <input type="text" placeholder="Search Products...">
+
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+        <div class="mobile-category-btn">
+
+            <i class="fa-solid fa-bars"></i>
+
+            <span>Categories</span>
+
+        </div>
+
+    </div>
+
+</div>
+    
+<!-- ========================= -->
+<!-- HEADER NAVIGATION -->
+<!-- ========================= -->
+
+<nav class="navbar">
+
+    <div class="container">
+
+        <ul class="nav-menu">
+
+
+            <!-- CATEGORIES -->
+
+            <li class="category-dropdown">
+
+                <a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                    <span>Categories</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+
+
+                <!-- Categories will load from JS -->
+
+                <ul class="category-menu">
+
+                </ul>
+
+
+            </li>
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            
+              <li>
+              <a href="shop.html">
+                    Shop
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+    
+  <!-- ========================= -->
+    <!-- CHECKOUT -->
+    <!-- ========================= -->
+
+        <div class="container">
+
+            <div class="breadcrumb">
+
+                
+<div class="checkout-layout">
+
+    <!-- LEFT SIDE -->
+     <div class="checkout-layout">
+
+    <div class="checkout-left">
+
+        <!-- CART PRODUCTS -->
+
+        <div class="checkout-products">
+
+            <h2>Your Order</h2>
+
+            <div id="checkout-items">
+                <!-- Products will load here -->
+            </div>
+
+        </div>
+
+
+        <!-- ORDER SUMMARY -->
+
+        <div class="checkout-summary">
+
+            <h2>Order Summary</h2>
+
+            <div class="summary-row">
+
+                <span>Subtotal</span>
+
+                <span id="checkout-subtotal">
+                    Rs. 0
+                </span>
+
+            </div>
+
+            <div class="summary-row">
+
+                <span>Shipping</span>
+
+                <span>Free</span>
+
+            </div>
+
+            <div class="summary-row total">
+
+                <span>Total</span>
+
+                <span id="checkout-total">
+                    Rs. 0
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- CUSTOMER DETAILS -->
+
+        <div class="checkout-form">
+
+            <h2>Delivery Details</h2>
+
+            <input
+                type="text"
+                id="checkout-name"
+                placeholder="Your Name"
+            >
+
+            <input
+                type="tel"
+                id="checkout-phone"
+                placeholder="Phone Number"
+            >
+
+            <textarea
+                id="checkout-address"
+                placeholder="Delivery Address"
+            ></textarea>
+
+            <p class="whatsapp-notice">
+                Order will be sent to us on WhatsApp.
+            </p>
+
+            <button id="checkout-whatsapp">
+                Place Order On WhatsApp
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT SIDE -->
+
+    <div class="payment-details">
+
+        <h2>Payment Details</h2>
+
+        <p>
+            <strong>Bank Name:</strong>
+            Your Bank Name
+        </p>
+
+        <p>
+            <strong>Account Title:</strong>
+            Your Name
+        </p>
+
+        <p>
+            <strong>Account Number:</strong>
+            XXXXXXXXXXXX
+        </p>
+
+        <p>
+            <strong>JazzCash:</strong>
+            03XXXXXXXXX
+        </p>
+
+        <p>
+            <strong>EasyPaisa:</strong>
+            03XXXXXXXXX
+        </p>
+
+    </div>
+
+</div>
+
+        </div>
+    <!-- JAVASCRIPT -->
+
+<script src="js/reviews.js" defer></script>
+<script src="js/checkout.js" defer></script>
+<script src="js/script.js" defer></script>
+<script src="js/mobile-view.js" defer></script>
+
+</body>
+
+</html>
