@@ -1,18 +1,16 @@
 [
- 
-  {
-    "productId": 1,
-    "name": "Sara",
-    "email": "sara@example.com",
-    "rating": 5,
-    "comment": "Amazing quality."
-  },
  {
-    "productId": 2,
+    "productId": 1,
     "name": "Zainab Malik",
     "email": "zainab.malik@example.com",
     "rating": 5,
     "comment": "Natural herbs wali ye cream firmness aur skin elasticity improve karne ke liye achi hai, lekin size badhne mein time lagta hai."
+  },
+  {
+    "productId": 2,
+    "name": "Ayesha Malik",
+    "email": "ayesha.malik@example.com",
+    "rating": 5,
+    "comment": "Coconut aur papaya essence wali ye cream chest area ki skin ko soft aur firm rakhti hai, lekin size badhne ke liye realistic expectations rakhni chahiye."
   }
- 
 ]
