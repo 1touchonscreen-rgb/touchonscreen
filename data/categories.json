@@ -45,43 +45,5 @@
 
         ]
     },
-    {
-        "name": "Women's Fashion",
-        "slug": "women's-fashion",
-        "subcategories": [
-               {
-                "name": "Undergarments",
-                "slug": "undergarments",
-                "link": "category.html?cat=undergarments"
-            },
-            {
-                "name": "Women Dresses",
-                "slug": "women-resses",
-                "link": "category.html?cat=women-resses"
-            },
-           
-            {
-                "name": "Kids Wear",
-                "slug": "kids-wear",
-                "link": "category.html?cat=kids-wear"
-            }
-        ]
-    },
-
-    {
-        "name": "Other Categories",
-        "slug": "other-categories",
-        "subcategories": [
-            {
-                "name": "Condoms",
-                "slug": "condoms",
-                "link": "category.html?cat=condoms"
-            },
-            {
-                "name": "Lubricants",
-                "slug": "lubricants",
-                "link": "category.html?cat=lubricants"
-            }
-        ]
-    }
+  
 ]
