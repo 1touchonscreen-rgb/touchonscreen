@@ -27,7 +27,26 @@
 
         ]
     },
-     {
+     
+
+    {
+        "name": "Female Products",
+        "slug": "female-products",
+        "subcategories": [
+            {
+                "name": "Female Oil",
+                "slug": "female-oil",
+                "link": "category.html?cat=female-oil"
+            },
+           
+            {
+                "name": "Female Care",
+                "slug": "female-care",
+                "link": "category.html?cat=female-care"
+            }
+        ]
+    },
+    {
         "name": "Women's Fashion",
         "slug": "women's-fashion",
         "subcategories": [
@@ -46,24 +65,6 @@
                 "name": "Kids Wear",
                 "slug": "kids-wear",
                 "link": "category.html?cat=kids-wear"
-            }
-        ]
-    },
-
-    {
-        "name": "Female Products",
-        "slug": "female-products",
-        "subcategories": [
-            {
-                "name": "Female Oil",
-                "slug": "female-oil",
-                "link": "category.html?cat=female-oil"
-            },
-           
-            {
-                "name": "Female Care",
-                "slug": "female-care",
-                "link": "category.html?cat=female-care"
             }
         ]
     },
