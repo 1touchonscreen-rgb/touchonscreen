@@ -6,6 +6,13 @@
     "email": "sara@example.com",
     "rating": 5,
     "comment": "Amazing quality."
+  },
+ {
+    "productId": 2,
+    "name": "Zainab Malik",
+    "email": "zainab.malik@example.com",
+    "rating": 5,
+    "comment": "Natural herbs wali ye cream firmness aur skin elasticity improve karne ke liye achi hai, lekin size badhne mein time lagta hai."
   }
  
 ]
