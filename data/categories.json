@@ -1,5 +1,23 @@
 [
+
     {
+        "name": "Female Products",
+        "slug": "female-products",
+        "subcategories": [
+            {
+                "name": "Breast Enlargement",
+                "slug": "breast-enlargement",
+                "link": "category.html?cat=breast-enlargement"
+            },
+           
+            {
+                "name": "Breast Reduction",
+                "slug": "breast-reduction",
+                "link": "category.html?cat=breast-reduction"
+            }
+        ]
+    },
+     {
         "name": "Male Products",
         "slug": "male-products",
         "subcategories": [
@@ -25,25 +43,6 @@
                 "link": "category.html?cat=hair-care"
             }
 
-        ]
-    },
-     
-
-    {
-        "name": "Female Products",
-        "slug": "female-products",
-        "subcategories": [
-            {
-                "name": "Female Oil",
-                "slug": "female-oil",
-                "link": "category.html?cat=female-oil"
-            },
-           
-            {
-                "name": "Female Care",
-                "slug": "female-care",
-                "link": "category.html?cat=female-care"
-            }
         ]
     },
     {
