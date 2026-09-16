@@ -26,6 +26,27 @@
     "email": "sana.tariq@email.com",
     "rating": 5,
     "comment": "Pakistan mein ye cream available hai jo back pain aur discomfort kam karne ke liye use hoti hai, lekin consistent massage zaroori hai"
+  },
+  {
+    "productId": 5,
+    "name": "Sana Tariq",
+    "email": "sana.tariq@email.com",
+    "rating": 5,
+    "comment": "Butt aur thigh area ke liye acne cream milti hain jaise Akmas Acne Cream jo sebum control karti hai, lekin body acne ke liye dermatologist se consult karna behtar hai"
+  },
+   {
+    "productId": 6,
+    "name": "Hira Tariq",
+    "email": "hira.tariq@email.com",
+    "rating": 5,
+    "comment": "Arena Gold ki ye hip up cream firming aur enlargement ke liye use hoti hai, lekin is brand ke products safety warnings ki wajah se controversial rahe hain."
+  },
+   {
+    "productId": 7,
+    "name": "Hira Naeem",
+    "email": "hira.naeem@email.com",
+    "rating": 5,
+    "comment": "Garlic extract wali ye cream massage se blood flow boost karti hai aur hips ko lifted look dene mein madadgar hai "
   }
  
 ]
