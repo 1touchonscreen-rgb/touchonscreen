@@ -12,5 +12,13 @@
     "email": "ayesha.malik@example.com",
     "rating": 5,
     "comment": "Coconut aur papaya essence wali ye cream chest area ki skin ko soft aur firm rakhti hai, lekin size badhne ke liye realistic expectations rakhni chahiye."
+  },
+ {
+    "productId": 3,
+    "name": "Nimra Tariq",
+    "email": "nimra.tariq@email.com",
+    "rating": 5,
+    "comment": "Garlic extract aur warming ingredients wali ye cream massage se blood circulation boost karti hai aur hips ko lifted look deti hai"
   }
+ 
 ]
