@@ -1328,6 +1328,7 @@ PRODUCT IMAGE */
     max-width:500px;
     height:500px;
     object-fit:contain;
+    background:var(--product-bg);
 }
 /* GALLERY */
 .product-gallery{
