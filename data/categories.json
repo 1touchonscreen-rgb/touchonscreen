@@ -14,6 +14,11 @@
                 "name": "Breast Reduction",
                 "slug": "breast-reduction",
                 "link": "category.html?cat=breast-reduction"
+            },
+              {
+                "name": "Hip Enlargement",
+                "slug": "hip-enlargement",
+                "link": "category.html?cat=hip-enlargement"
             }
         ]
     },
