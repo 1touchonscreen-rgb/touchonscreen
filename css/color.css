@@ -1,0 +1,16 @@
+:root {
+    /* Main Website Colors */
+    --site-bg: #181818;
+    --card-bg: #1a1a1a;
+    --product-bg: #ffffff;
+
+    /* Text Colors */
+    --text-color: #ffffff;
+    --muted-text: #cccccc;
+
+    /* Brand / Accent Colors */
+    --accent-color: #d4af37;
+
+    /* Border Colors */
+    --border-color: #2a2a2a;
+}
