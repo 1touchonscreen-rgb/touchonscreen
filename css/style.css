@@ -696,7 +696,7 @@ HEADER Logo, Search, Right Icon
     justify-content:center;
     padding:15px;
     border-bottom:1px solid #333;
-
+    background: var(--product-bg);
 }
 
 .latest-products-grid .product-image img{
@@ -877,7 +877,7 @@ HEADER Logo, Search, Right Icon
     justify-content:center;
     padding:15px;
     border-bottom:1px solid #333;
-
+    background: var(--product-bg);
 }
 
 .featured-products .product-image img{
