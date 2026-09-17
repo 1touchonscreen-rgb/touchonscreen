@@ -189,36 +189,13 @@ if (window.innerWidth > 768) {
 
                 // Yahan featured category change karni hai
 
-                const featuredCategories = [
-                    "female-oil",
-                    "female-oil"
-                ];
+                 const featuredCategory = "breast-enlargement";
 
+const featuredProducts = products
+    .filter(product => product.category === featuredCategory)
+    .slice(0, 4);
+featuredProducts.forEach(product => {
 
-                let featuredProducts = [];
-
-
-                featuredCategories.forEach(category => {
-
-                    const categoryProducts =
-                        products.filter(product =>
-                            product.category === category
-                        );
-
-                    featuredProducts.push(
-                        ...categoryProducts.slice(0, 2)
-                    );
-
-                });
-
-
-                // Current behavior preserve kiya gaya hai
-                // taake website ka design/functionality change na ho
-
-                [...products]
-                    .reverse()
-                    .slice(0, 4)
-                    .forEach(product => {
 
                         featuredContainer.innerHTML += `
 
