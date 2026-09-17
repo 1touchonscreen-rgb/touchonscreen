@@ -40,5 +40,35 @@
     <url>
         <loc>touchonscreen.com/product.html?id=8</loc>
     </url>
+
+              <!-- Breast Reduction -->
+    
+    <url>
+        <loc>touchonscreen.com/category.html?cat=breast-reduction</loc>
+    </url>
+     <url>
+        <loc>touchonscreen.com/product.html?id=4</loc>
+    </url>
+    
+
+                 <!-- Breast Enlargement -->
+    
+    <url>
+        <loc>touchonscreen.com/category.html?cat=breast-reduction</loc>
+    </url>
+     <url>
+        <loc>touchonscreen.com/product.html?id=1</loc>
+    </url>
+     <url>
+        <loc>touchonscreen.com/product.html?id=2</loc>
+    </url>
+     <url>
+        <loc>touchonscreen.com/product.html?id=7</loc>
+    </url>
+    <url>
+        <loc>touchonscreen.com/product.html?id=8</loc>
+    </url>
+
+    
  
 </urlset>
