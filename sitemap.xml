@@ -23,20 +23,40 @@
 
                     <!-- Breast Enlargement -->
     
-    <url>
-        <loc>https://touchonscreen.com/category.html?cat=breast-enlargement</loc>
-    </url>
-                    <!-- Hair Care -->
-    <url>
-        <loc>https://touchonscreen.com/category.html?cat=hair-care</loc>
-    </url>
+
 
     <url>
-        <loc>https://touchonscreen.com/product.html?id=1</loc>
+        <loc>https://marvi.site/category.html?cat=Breast Enlargement</loc>
     </url>
-
+     <url>
+        <loc>https://marvi.site/product.html?id=16</loc>
+    </url>
+     <url>
+        <loc>https://marvi.site/product.html?id=17</loc>
+    </url>
+     <url>
+        <loc>https://marvi.site/product.html?id=18</loc>
+    </url>
     <url>
-        <loc>https://touchonscreen.com/product.html?id=2</loc>
+        <loc>https://marvi.site/product.html?id=19</loc>
     </url>
-
+     <url>
+        <loc>https://marvi.site/product.html?id=20</loc>
+    </url>
+      <url>
+        <loc>https://marvi.site/product.html?id=21</loc>
+    </url>
+     <url>
+        <loc>https://marvi.site/product.html?id=22</loc>
+    </url>
+    <url>
+        <loc>https://marvi.site/product.html?id=23</loc>
+    </url>
+    <url>
+        <loc>https://marvi.site/product.html?id=24</loc>
+    </url>
+    <url>
+        <loc>https://marvi.site/product.html?id=25</loc>
+    </url>
+ 
 </urlset>
