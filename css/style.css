@@ -1553,6 +1553,7 @@ PRODUCT IMAGE */
     height:240px;
     object-fit:contain;
     margin-bottom:20px;
+    background: var(--product-bg);
 }
 
 #related-products .product-card h3{
