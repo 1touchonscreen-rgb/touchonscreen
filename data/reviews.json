@@ -82,8 +82,14 @@
     "email": "mahnoor.shahid@example.com",
     "rating": 5,
     "comment": "Achi quality wali breast cream ka price range Pakistan mein mukhtalif hai, is liye kharidne se pehle ingredients aur brand check karna zaroori hai."
+  },
+  {
+    "productId": 12,
+    "name": "Zara Khan",
+    "email": "zara.khan@example.com",
+    "rating": 5,
+    "comment": "Karachi mein ye cream easily mil jati hai aur regular massage se hips aur bum area mein firmness ka farq mehsoos hota hai."
   }
- 
  
  
 ]
