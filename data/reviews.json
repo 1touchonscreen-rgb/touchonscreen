@@ -75,6 +75,13 @@
     "email": "sana.tariq@email.com",
     "rating": 5,
     "comment": "Market mein breast creams ki range bohat mukhtalif hai, Rs. 2500 se shuru ho kar Rs. 3,000 tak jaati hai, aur kuch imported brands is se bhi zyada mehngi hoti hain."
+  },
+   {
+    "productId": 11,
+    "name": "Mahnoor Shahid",
+    "email": "mahnoor.shahid@example.com",
+    "rating": 5,
+    "comment": "Achi quality wali breast cream ka price range Pakistan mein mukhtalif hai, is liye kharidne se pehle ingredients aur brand check karna zaroori hai."
   }
  
  
