@@ -189,7 +189,7 @@ if (ogImage) {
         const relatedProducts = products.filter(item =>
             item.category === product.category &&
             item.id != product.id
-        );
+        ).slice(0, 4);
 
         relatedContainer.innerHTML = "";
 
