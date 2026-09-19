@@ -37,6 +37,7 @@ if (canonicalUrl) {
         return;
 
     }
+    document.title = `${product.name} | Touch On Screen`;
     // YAHAN OG CODE PASTE KARNA HAI
     const ogTitle = document.getElementById("og-title");
 const ogDescription = document.getElementById("og-description");
