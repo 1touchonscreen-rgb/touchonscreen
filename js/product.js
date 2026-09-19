@@ -38,6 +38,12 @@ if (canonicalUrl) {
 
     }
     document.title = `${product.name} | Touch On Screen`;
+
+    const metaDescription = document.getElementById("meta-description");
+if (metaDescription) {
+    metaDescription.content =
+        `Buy ${product.name} in Pakistan with discreet packaging and fast delivery from Touch On Screen.`;
+}
     // YAHAN OG CODE PASTE KARNA HAI
     const ogTitle = document.getElementById("og-title");
 const ogDescription = document.getElementById("og-description");
