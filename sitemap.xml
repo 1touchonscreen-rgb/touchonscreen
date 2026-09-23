@@ -74,7 +74,17 @@
     <url>
         <loc>touchonscreen.com/product.html?id=12</loc>
    </url>
+              <!-- delay-spray -->
     
+    <url>
+        <loc>https://touchonscreen.com/category.html?cat=delay-spray</loc>
+    </url>
+     <url>
+        <loc>https://touchonscreen.com/product.html?id=13</loc>
+    </url>
+     <url>
+        <loc>https://touchonscreen.com/product.html?id=14</loc>
+    </url>
  
 
     
