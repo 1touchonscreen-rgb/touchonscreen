@@ -44,6 +44,36 @@ if (metaDescription) {
     metaDescription.content =
         `Buy ${product.name} in Pakistan with discreet packaging and fast delivery from Touch On Screen.`;
 }
+
+// ==============================
+// PRODUCT STRUCTURED DATA
+// ==============================
+
+const productSchema = document.getElementById("product-schema");
+
+if (productSchema) {
+    productSchema.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": product.name,
+        "image": [
+            window.location.origin + "/" +
+            (product.images ? product.images[0] : product.image)
+        ],
+        "description": product.shortDescription || product.name,
+        "sku": String(product.id),
+        "url": window.location.origin +
+            window.location.pathname + "?id=" + product.id,
+        "offers": {
+            "@type": "Offer",
+            "url": window.location.origin +
+                window.location.pathname + "?id=" + product.id,
+            "priceCurrency": "PKR",
+            "price": Number(product.price),
+            "availability": "https://schema.org/InStock"
+        }
+    });
+}    
     // YAHAN OG CODE PASTE KARNA HAI
     const ogTitle = document.getElementById("og-title");
 const ogDescription = document.getElementById("og-description");
