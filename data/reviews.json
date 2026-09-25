@@ -124,7 +124,13 @@
     "email": "sana.tariq@email.com",
     "rating": 5,
     "comment": "Timing control ke liye effective hai, thora sa spray karein aur asar 5-10 minute mein shuru hota hai."
+  },
+  {
+    "productId": 18,
+    "name": "Hamza Tariq",
+    "email": "hamza.tariq@example.com",
+    "rating": 5,
+    "comment": "Yeh cologne Pakistan mein Rs. 2,100 se Rs. 2,580 ke aas paas mil jata hai aur apni strong spicy aur woody fragrance ki wajah se kaafi popular hai "
   }
- 
  
 ]
