@@ -51,31 +51,41 @@ if (metaDescription) {
 
 const productSchema = document.getElementById("product-schema");
 
-if (productSchema) {
+if (productSchema && product && product.name && product.price != null) {
+
+    const productUrl =
+        window.location.origin +
+        window.location.pathname +
+        "?id=" + product.id;
+
+    const productImage =
+        window.location.origin + "/" +
+        (product.images ? product.images[0] : product.image);
+
     productSchema.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        "name": product.name,
-        "image": [
-            window.location.origin + "/" +
-            (product.images ? product.images[0] : product.image)
-        ],
-        "description": product.shortDescription || product.name,
+        "name": String(product.name),
+        "image": [productImage],
+        "description": String(product.shortDescription || product.name),
         "sku": String(product.id),
-        "url": window.location.origin +
-            window.location.pathname + "?id=" + product.id,
+        "url": productUrl,
         "offers": {
             "@type": "Offer",
-            "url": window.location.origin +
-                window.location.pathname + "?id=" + product.id,
+            "url": productUrl,
             "priceCurrency": "PKR",
             "price": Number(product.price),
             "availability": "https://schema.org/InStock"
         }
     });
-}    
-    // YAHAN OG CODE PASTE KARNA HAI
-    const ogTitle = document.getElementById("og-title");
+}
+
+
+// ==============================
+// OPEN GRAPH
+// ==============================
+
+const ogTitle = document.getElementById("og-title");
 const ogDescription = document.getElementById("og-description");
 const ogUrl = document.getElementById("og-url");
 const ogImage = document.getElementById("og-image");
@@ -91,12 +101,15 @@ if (ogDescription) {
 
 if (ogUrl) {
     ogUrl.content =
-        window.location.origin + window.location.pathname + "?id=" + product.id;
+        window.location.origin +
+        window.location.pathname +
+        "?id=" + product.id;
 }
 
 if (ogImage) {
     ogImage.content =
-    window.location.origin + "/" + (product.images ? product.images[0] : product.image);
+        window.location.origin + "/" +
+        (product.images ? product.images[0] : product.image);
 }
 
 
