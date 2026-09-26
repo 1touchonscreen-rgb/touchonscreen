@@ -22,8 +22,6 @@ if (canonicalUrl) {
 
 .then(async products => {
 
-    await loadReviews();
-
 
     // ==============================
     // FIND PRODUCT
@@ -79,6 +77,11 @@ if (productSchema && product && product.name && product.price != null) {
         }
     });
 }
+    // ==============================
+// LOAD REVIEWS
+// ==============================
+
+await loadReviews();
 
 
 // ==============================
