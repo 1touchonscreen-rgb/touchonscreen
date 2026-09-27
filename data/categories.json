@@ -19,6 +19,11 @@
                 "name": "Hip Enlargement",
                 "slug": "hip-enlargement",
                 "link": "category.html?cat=hip-enlargement"
+            },
+            {
+                "name": "Hip Reduction",
+                "slug": "hip-reduction",
+                "link": "category.html?cat=hip-reduction"
             }
         ]
     },
