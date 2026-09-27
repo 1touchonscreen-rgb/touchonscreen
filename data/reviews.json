@@ -138,6 +138,20 @@
     "email": "bilal.ahmed@example.com",
     "rating": 5,
     "comment": "Benzocaine based delay spray hai jo sensitive area ko temporarily numb karke timing control mein madad karta hai, lekin patch test zaroor karein aur dose limit mein rakhein"
+  },
+  {
+    "productId": 20,
+    "name": "Zara Ahmed",
+    "email": "zara.ahmed@example.com",
+    "rating": 5,
+    "comment": "Pakistan mein hip slimming ke liye Mektum Fucus Cream jaise options available hain jo localized fat reduce karne aur skin firm karne mein madad karte hain."
+  },
+ {
+    "productId": 21,
+    "name": "Hira Naeem",
+    "email": "hira.naeem@email.com",
+    "rating": 5,
+    "comment": "Silhouette cream caffeine, guarana aur ivy extracts se bani hai jo hips aur thighs ki skin ko firm aur toned banane mein madad karti hai, regular massage se farq mehsoos hota hai."
   }
  
 ]
