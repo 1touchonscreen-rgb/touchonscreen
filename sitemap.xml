@@ -101,7 +101,17 @@
         <loc>https://touchonscreen.com/product.html?id=19</loc>
     </url>
  
-
+       <!-- hip-reduction -->
+    
+    <url>
+        <loc>https://touchonscreen.com/category.html?cat=hip-reduction</loc>
+    </url>
+     <url>
+        <loc>https://touchonscreen.com/product.html?id=20</loc>
+    </url>
+    <url>
+        <loc>https://touchonscreen.com/product.html?id=21</loc>
+    </url>
     
  
 </urlset>
