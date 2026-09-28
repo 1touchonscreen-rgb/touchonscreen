@@ -118,12 +118,6 @@ products.forEach((product) => {
         rel="canonical"
         href="${productUrl}"
     >
-
-    <meta
-        http-equiv="refresh"
-        content="0; url=${productUrl}"
-    >
-
     <script>
         window.location.replace(${JSON.stringify(productUrl)});
     </script>
