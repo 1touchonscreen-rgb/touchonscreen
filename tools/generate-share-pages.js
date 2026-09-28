@@ -46,7 +46,7 @@ products.forEach((product) => {
         `https://touchonscreen.com/share/${slug}/`;
 
     const imageUrl =
-        `https://touchonscreen.com/${product.images[0]}`;
+    `https://touchonscreen.com/${encodeURI(product.images[0])}`;
 
     const description =
         product.shortDescription ||
