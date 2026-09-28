@@ -5,8 +5,11 @@ const root = path.join(__dirname, "..");
 
 const productsPath = path.join(root, "data", "products.json");
 const outputDir = path.join(root, "share");
+const sitemapPath = path.join(root, "sitemap.xml");
 
-const products = JSON.parse(fs.readFileSync(productsPath, "utf8"));
+const products = JSON.parse(
+    fs.readFileSync(productsPath, "utf8")
+);
 
 fs.mkdirSync(outputDir, { recursive: true });
 
@@ -28,6 +31,10 @@ function escapeHtml(text = "") {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
 }
+
+/* =========================================
+   GENERATE FACEBOOK SHARE PAGES
+   ========================================= */
 
 products.forEach((product) => {
     const slug = slugify(product.name);
@@ -109,7 +116,10 @@ products.forEach((product) => {
         href="${productUrl}"
     >
 
-    <meta http-equiv="refresh" content="0; url=${productUrl}">
+    <meta
+        http-equiv="refresh"
+        content="0; url=${productUrl}"
+    >
 
     <script>
         window.location.replace(${JSON.stringify(productUrl)});
@@ -136,7 +146,68 @@ products.forEach((product) => {
         "utf8"
     );
 
-    console.log(`Created: /share/${slug}/`);
+    console.log(`Created share page: /share/${slug}/`);
 });
 
-console.log(`Generated ${products.length} share pages.`);
+
+/* =========================================
+   GENERATE SITEMAP.XML
+   ========================================= */
+
+const staticUrls = [
+    "https://touchonscreen.com/",
+    "https://touchonscreen.com/shop.html",
+    "https://touchonscreen.com/about.html",
+    "https://touchonscreen.com/contact.html"
+];
+
+/*
+   Get all unique categories directly
+   from products.json
+*/
+const categories = [
+    ...new Set(
+        products
+            .map(product => product.category)
+            .filter(Boolean)
+    )
+];
+
+const categoryUrls = categories.map(
+    category =>
+        `https://touchonscreen.com/category.html?cat=${encodeURIComponent(category)}`
+);
+
+const productUrls = products.map(
+    product =>
+        `https://touchonscreen.com/product.html?id=${product.id}`
+);
+
+const allUrls = [
+    ...staticUrls,
+    ...categoryUrls,
+    ...productUrls
+];
+
+const sitemapEntries = allUrls
+    .map(url => `    <url>\n        <loc>${url}</loc>\n    </url>`)
+    .join("\n\n");
+
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+${sitemapEntries}
+
+</urlset>
+`;
+
+fs.writeFileSync(
+    sitemapPath,
+    sitemap,
+    "utf8"
+);
+
+console.log("Sitemap generated successfully.");
+console.log(`Products: ${products.length}`);
+console.log(`Categories: ${categories.length}`);
+console.log(`Total sitemap URLs: ${allUrls.length}`);
