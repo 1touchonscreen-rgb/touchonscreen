@@ -64,9 +64,19 @@
         rel="canonical"
         href="https://touchonscreen.com/product.html?id=20"
     >
-    <script>
+   <script>
+    const userAgent = navigator.userAgent.toLowerCase();
+
+    const isSocialCrawler =
+        userAgent.includes("facebookexternalhit") ||
+        userAgent.includes("facebot") ||
+        userAgent.includes("twitterbot") ||
+        userAgent.includes("linkedinbot");
+
+    if (!isSocialCrawler) {
         window.location.replace("https://touchonscreen.com/product.html?id=20");
-    </script>
+    }
+</script>
 </head>
 
 <body>
