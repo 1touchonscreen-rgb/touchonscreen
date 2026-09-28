@@ -1,3 +1,4 @@
+```yaml
 name: Generate Product Share Pages
 
 on:
@@ -5,6 +6,7 @@ on:
   push:
     paths:
       - "data/products.json"
+      - "data/categories.json"
       - "tools/generate-share-pages.js"
 
 permissions:
@@ -23,13 +25,20 @@ jobs:
         with:
           node-version: 24
 
-      - name: Generate share pages
+      - name: Generate share pages and sitemap
         run: node tools/generate-share-pages.js
 
-      - name: Commit generated pages
+      - name: Verify generated sitemap
+        run: |
+          test -f sitemap.xml
+          echo "Sitemap exists."
+          grep -c "<loc>" sitemap.xml
+
+      - name: Commit generated pages and sitemap
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add share sitemap.xml
-          git diff --cached --quiet || git commit -m "Generate product share pages"
+          git diff --cached --quiet || git commit -m "Generate product share pages and sitemap"
           git push
+```
