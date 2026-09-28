@@ -118,9 +118,19 @@ products.forEach((product) => {
         rel="canonical"
         href="${productUrl}"
     >
-    <script>
+   <script>
+    const userAgent = navigator.userAgent.toLowerCase();
+
+    const isSocialCrawler =
+        userAgent.includes("facebookexternalhit") ||
+        userAgent.includes("facebot") ||
+        userAgent.includes("twitterbot") ||
+        userAgent.includes("linkedinbot");
+
+    if (!isSocialCrawler) {
         window.location.replace(${JSON.stringify(productUrl)});
-    </script>
+    }
+</script>
 </head>
 
 <body>
