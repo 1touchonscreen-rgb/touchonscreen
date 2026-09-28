@@ -80,6 +80,9 @@ products.forEach((product) => {
         property="og:image"
         content="${imageUrl}"
     >
+    <meta property="og:image:url" content="${imageUrl}">
+    <meta property="og:image:secure_url" content="${imageUrl}">
+    <meta property="og:image:alt" content="${escapeHtml(product.name)}">
 
     <meta
         property="og:url"
