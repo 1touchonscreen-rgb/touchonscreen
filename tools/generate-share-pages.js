@@ -58,6 +58,7 @@ products.forEach((product) => {
     <meta charset="UTF-8">
 
     <title>${escapeHtml(product.name)} | TouchOnScreen</title>
+    <meta name="robots" content="noindex, nofollow">
 
     <meta
         name="description"
