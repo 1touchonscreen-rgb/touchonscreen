@@ -166,6 +166,13 @@
     "email": "sana.ejaz@example.com",
     "rating": 5,
     "comment": "Collagen aur natural extracts wali ye cream bust area ki skin ko firm aur tight rakhne mein madad karti hai, regular massage se farq mehsoos hota hai."
+  },
+ {
+    "productId": 24,
+    "name": "Areeba Shahid",
+    "email": "areeba.shahid@example.com",
+    "rating": 5,
+    "comment": "Ye cream chest area ki fat reduce karne aur skin firm karne ke liye use hoti hai, lekin results ke liye regular massage aur patience zaroori hai."
   }
  
 ]
