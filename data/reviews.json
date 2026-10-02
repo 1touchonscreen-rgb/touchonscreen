@@ -180,6 +180,13 @@
     "email": "zara.ahmed@example.com",
     "rating": 5,
     "comment": "Natural extracts wali ye cream hips aur buttocks ki skin ko firm aur lifted banane mein madad karti hai, regular massage se farq mehsoos hota hai."
-  }
+  },
+ {
+    "productId": 26,
+    "name": "Ayesha Khan",
+    "email": "ayesha.khan@email.com",
+    "rating": 5,
+    "comment": "Finger cream dry aur cracked fingertips ko repair karti hai, 20% urea formula skin ko soft aur smooth banata hai."
+  },
  
 ]
