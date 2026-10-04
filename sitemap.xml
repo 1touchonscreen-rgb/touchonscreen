@@ -38,6 +38,10 @@
     </url>
 
     <url>
+        <loc>https://touchonscreen.com/category.html?cat=hair-care</loc>
+    </url>
+
+    <url>
         <loc>https://touchonscreen.com/product.html?id=1</loc>
     </url>
 
@@ -143,6 +147,10 @@
 
     <url>
         <loc>https://touchonscreen.com/product.html?id=27</loc>
+    </url>
+
+    <url>
+        <loc>https://touchonscreen.com/product.html?id=28</loc>
     </url>
 
 </urlset>
