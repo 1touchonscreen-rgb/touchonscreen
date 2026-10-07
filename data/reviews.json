@@ -8,10 +8,17 @@
   },
   {
     "productId": 2,
-    "name": "Ayesha Malik",
+    "name": "Ayesha Tariq",
     "gmail": "ayeshamalik@gmail.com",
     "rating": 5,
     "comment": "Coconut aur papaya essence wali ye cream chest area ki skin ko soft aur firm rakhti hai, lekin size badhne ke liye realistic expectations rakhni chahiye."
+  },
+  {
+    "productId": 2,
+    "name": "Hira Naeem",
+    "gmail": "hiranraeem786@gmail.com",
+    "rating": 5,
+    "comment": "Cream ka texture light hai aur massage se skin soft aur firm mehsoos hoti hai."
   },
  {
     "productId": 3,
