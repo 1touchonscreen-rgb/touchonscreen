@@ -66,9 +66,13 @@ if (productSchema && product && product.name && product.price != null) {
         "name": String(product.name),
         "image": [productImage],
         "description": String(product.shortDescription || product.name),
-        "sku": String(product.id),
-        "url": productUrl,
-        "offers": {
+       "sku": String(product.id),
+"url": productUrl,
+"mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": productUrl
+},
+"offers": {
             "@type": "Offer",
             "url": productUrl,
             "priceCurrency": "PKR",
