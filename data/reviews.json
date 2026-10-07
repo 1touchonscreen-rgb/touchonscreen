@@ -120,6 +120,13 @@
   },
   {
     "productId": 16,
+    "name": "Ayesha Tariq",
+    "gmail": "ayeshatariq786@gmail.com",
+    "rating": 5,
+    "comment": "Spray ka effect 10 se 15 minute mein shuru hota hai aur performance ko behtar banata hai."
+  },
+  {
+    "productId": 16,
     "name": "Kashif Mehmood",
     "gmail": "kashifmehmood@gmail.com",
     "rating": 5,
