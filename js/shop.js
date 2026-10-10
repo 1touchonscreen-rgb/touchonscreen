@@ -23,11 +23,14 @@ window.productsPromise
 // DISPLAY PRODUCTS
 // ==========================
 
-function displayProducts(products){
+async function displayProducts(products){
 
     const container = document.getElementById("shop-products");
 
     container.innerHTML = "";
+    if (!reviewsLoaded) {
+    await loadReviews();
+    }
 
     products.forEach(product => {
 
