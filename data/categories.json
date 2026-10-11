@@ -36,12 +36,6 @@
                 "slug": "delay-spray",
                 "link": "category.html?cat=delay-spray"
             },
-         
-            {
-                "name": "Male Tablets",
-                "slug": "male-tablets",
-                "link": "category.html?cat=male-tablets"
-            },
 
              {
                 "name": "Hair Care",
@@ -50,6 +44,23 @@
             }
 
         ]
-    }
+    },
+       {
+        "name": "Women's Fashion & Tailoring",
+        "slug": "women's-fashion-&-tailoring",
+        "subcategories": [
+            {
+                "name": "Women's Custom Stitching(Tailor Shop)",
+                "slug": "women's-custom-stitching",
+                "link": "category.html?cat=women's-custom-stitching"
+            },
+
+             {
+                "name": "Women's Undergarments",
+                "slug": "women's-undergarments",
+                "link": "category.html?cat=women's-undergarments"
+            }
+
+        ]
   
 ]
