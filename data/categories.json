@@ -45,20 +45,20 @@
 
         ]
     },
-       {
-        "name": "Women's Fashion & Tailoring",
-        "slug": "women's-fashion-&-tailoring",
+        {
+        "name": "Women's Fashion",
+        "slug": "women's-fashion",
         "subcategories": [
             {
-                "name": "Women's Custom Stitching(Tailor Shop)",
-                "slug": "women's-custom-stitching",
-                "link": "category.html?cat=women's-custom-stitching"
+                "name": "Tailor Shop",
+                "slug": "tailor-shop",
+                "link": "category.html?cat=tailor-shop"
             },
 
              {
-                "name": "Women's Undergarments",
-                "slug": "women's-undergarments",
-                "link": "category.html?cat=women's-undergarments"
+                "name": "Womens Undergarments",
+                "slug": "womens-undergarments",
+                "link": "category.html?cat=womens-undergarments"
             }
 
         ]
