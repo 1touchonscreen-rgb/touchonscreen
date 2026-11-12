@@ -62,5 +62,10 @@
             }
 
         ]
-       }
+       },
+     {
+                "name": "Lubricant",
+                "slug": "lubricant",
+                "link": "category.html?cat=lubricant"
+            }
 ]
