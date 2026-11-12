@@ -63,9 +63,15 @@
 
         ]
        },
-   {
+ {
     "name": "Lubricant",
     "slug": "lubricant",
-    "subcategories": ["category.html?cat=lubricant"]
+    "subcategories": [
+        {
+            "name": "Lubricant",
+            "slug": "lubricant",
+            "link": "category.html?cat=lubricant"
+        }
+    ]
 }
 ]
