@@ -1188,7 +1188,7 @@
     "id": 49,
     "name": "6 Step Rice Facial in Pakistan",
     "price": 2500,
-    "category": "",
+    "category": "face-cream",
     "images": [
         "images/6 Step Rice Facial in Pakistan.webp"
     ],
@@ -1211,7 +1211,7 @@
     "id": 50,
     "name": "Eliva 5X Skin Repairing & Brightening Serum 30ml in Pakistan",
     "price": 2492,
-    "category": "",
+    "category": "face-cream",
     "images": [
         "images/Eliva 5X Skin Repairing & Brightening Serum 30ml in Pakistan.webp"
     ],
@@ -1236,7 +1236,7 @@
     "id": 51,
     "name": "Whitening Hand Cream in Pakistan",
     "price": 2500,
-    "category": "",
+    "category": "face-cream",
     "images": [
         "images/Whitening Hand Cream in Pakistan.webp"
     ],
@@ -1262,7 +1262,7 @@
     "id": 52,
     "name": "Spotless Glow Face Wash in Pakistan",
     "price": 2400,
-    "category": "",
+    "category": "face-cream",
     "images": [
         "images/Spotless Glow Face Wash in Pakistan.webp"
     ],
@@ -1288,7 +1288,7 @@
     "id": 53,
     "name": "Hello Hair Daily Moisturizing Shampoo in Pakistan",
     "price": 1500,
-    "category": "",
+    "category": "hair-care",
     "images": [
         "images/Hello Hair Daily Moisturizing Shampoo in Pakistan.webp"
     ],
