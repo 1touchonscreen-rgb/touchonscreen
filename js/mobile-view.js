@@ -25,7 +25,7 @@ if (window.innerWidth <= 768) {
 
                 latestProductsContainer.innerHTML = "";
 
-                products.slice(0, 2).forEach(product => {
+                [...products].reverse().slice(0, 2).forEach(product => {
 
                     latestProductsContainer.innerHTML += `
 
