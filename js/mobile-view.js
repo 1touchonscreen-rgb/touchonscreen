@@ -85,8 +85,8 @@ if (window.innerWidth <= 768) {
 
                 // Featured categories
                 const featuredCategories = [
-                    "female-care",
-                    "female-care"
+                    "hair-care",
+                    "hair-care"
                 ];
 
 
